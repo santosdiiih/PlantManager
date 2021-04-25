@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useEffect} from 'react';
 import Routes from './src/routes';
 import * as Notifications from 'expo-notifications';
@@ -34,6 +35,16 @@ export default function App(){
 
   return(
       <Routes />
+=======
+import React from 'react';
+import { Welcome } from './src/pages/Welcome';
+
+
+
+export default function App(){
+  return(
+      <Welcome/>
+>>>>>>> 7cc67f3a5c369ae210868b9deaa22447383090c7
   )
 }
 
